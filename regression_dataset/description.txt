@@ -1,0 +1,90 @@
+RealEstate Prediction (Predict OutcomeVariable)
+
+Here's a description of each column:
+
+General Information
+•	OutcomeVariable: The primary metric we aim to predict or analyze for each item in the dataset.
+•	BuildingCategory: A numerical code categorizing the broad structural type of the item.
+•	ZoningClassification: The designated usage category for the area where the item is located.
+•	StreetLineLength: The length in linear units of the item's frontage on a street.
+•	ParcelSize: The total area of the land associated with the item, measured in square units.
+•	RoadAccessType: The type of road providing access to the item's location.
+•	AlleyAccessType: The type of alley access available to the item's location (if any).
+•	ParcelShape: The general geometric shape of the land parcel.
+•	TerrainFlatness: A description of the land's levelness or slope.
+•	UtilityAvailability: The types of utility services available at the item's location.
+•	ParcelSettings: Specific configurations or features of the land parcel.
+•	TerrainSlope: The degree of inclination of the land.
+•	District: Geographic sub-regions or zones within a larger area.
+•	RoadProximity1: Indicates the item's proximity to a major road or transportation route.
+•	RoadProximity2: Indicates proximity to a second major road or route, if applicable.
+Item Characteristics
+•	DwellingType: The specific architectural classification of the structure.
+•	DwellingStyle: The architectural style of the structure.
+•	MaterialQuality: A rating of the overall quality of materials used in the item's construction.
+•	ConditionRating: A general assessment of the item's current state of repair and upkeep.
+•	ConstructionYear: The year in which the item was originally built.
+•	RenovationYear: The year of a significant remodel or addition to the item.
+•	RoofType: The style or design of the roof.
+•	RoofMaterial: The primary material used in the roof's construction.
+•	ExteriorCladding1: The dominant material covering the exterior of the item.
+•	ExteriorCladding2: A secondary exterior covering material, if present.
+•	MasonryType: The type of decorative masonry work used on the item's exterior.
+•	MasonrySize: The area covered by masonry work, measured in square units.
+•	ExteriorQuality: The quality of the materials used for the exterior cladding.
+•	ExteriorCondition: The current state of the exterior cladding.
+•	FoundationType: The type of foundation supporting the item's structure.
+Interior Features
+•	BasementHeight: A classification of the basement's height relative to ground level.
+•	BasementCondition: The general condition of the basement space.
+•	BasementAccess: Describes whether the basement has walkout access or is at garden level.
+•	BasementFinish1: The quality of finish in the main finished area of the basement.
+•	BasementFinishedArea1: The size of the main finished area in the basement, measured in square units.
+•	BasementFinish2: The quality of finish in a second finished area of the basement (if applicable).
+•	BasementFinishedArea2: The size of a second finished area in the basement, measured in square units.
+•	BasementUnfinishedArea: The size of the unfinished portion of the basement, measured in square units.
+•	TotalBasementArea: The total area of the basement space, including finished and unfinished areas, measured in square units.
+•	HeatingType: The system used for heating the item.
+•	HeatingQuality: The quality and condition of the heating system.
+•	AirConditioning: Indicates whether the item has central air conditioning.
+•	ElectricalSystem: The type of electrical system installed.
+•	GroundFloorArea: The area of the ground floor, measured in square units.
+•	UpperFloorArea: The area of the upper floor(s), measured in square units.
+•	LowQualityArea: Area of the item finished to a lower standard, measured in square units.
+•	LivingArea: The total living space above ground level, measured in square units.
+•	BasementFullBathrooms: The number of full bathrooms in the basement.
+•	BasementHalfBathrooms: The number of half bathrooms in the basement.
+•	FullBathrooms: The number of full bathrooms above ground level.
+•	HalfBathrooms: The number of half bathrooms above ground level.
+•	Bedrooms: The number of bedrooms in the item.
+•	Kitchens: The number of kitchens in the item.
+•	KitchenQuality: The quality of the kitchen's finishes and fixtures.
+•	TotalRooms: The total number of rooms above ground level, excluding bathrooms.
+•	FunctionalityRating: A rating of the item's overall functionality and layout.
+•	FireplaceCount: The number of fireplaces in the item.
+•	FireplaceQuality: The quality of the fireplace(s).
+Additional Features
+•	GarageLocation: The location of the garage relative to the item.
+•	GarageConstructionYear: The year the garage was built.
+•	GarageInterior: The interior finish of the garage.
+•	GarageCapacity: The number of vehicles the garage can accommodate.
+•	GarageSize: The area of the garage, measured in square units.
+•	GarageQuality: The quality of the garage's construction.
+•	GarageCondition: The current condition of the garage.
+•	DrivewayType: Indicates whether the driveway is paved.
+•	WoodDeckArea: The area of the wood deck, measured in square units.
+•	OpenPorchArea: The area of the open porch, measured in square units.
+•	EnclosedPorchArea: The area of the enclosed porch, measured in square units.
+•	ThreeSeasonPorchArea: The area of the three-season porch, measured in square units.
+•	ScreenPorchArea: The area of the screen porch, measured in square units.
+•	PoolSize: The area of the pool, measured in square units.
+•	PoolQuality: The quality of the pool.
+•	FenceQuality: The quality of the fence.
+•	AdditionalFeature: A miscellaneous feature not covered in other categories.
+•	AdditionalFeatureValue: The monetary value of the additional feature.
+Sale Information
+•	SaleMonth: The month in which the item was sold.
+•	SaleYear: The year in which the item was sold.
+•	SaleType: The method or type of sale transaction.
+•	SaleCondition: The condition of the sale.
+
